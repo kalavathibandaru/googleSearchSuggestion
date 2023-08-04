@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  height: 90vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-image {
+  width: 300px;
+  height: 120px;
+}
+
+.search-input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+}
+
+.search-image {
+  height: 20px;
+  width: 20px;
+}
+
+.google-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

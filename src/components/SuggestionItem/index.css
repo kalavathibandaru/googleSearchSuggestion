@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.single-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  color: #475569;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.custom-image {
+  height: 20px;
+  width: 20px;
+}
